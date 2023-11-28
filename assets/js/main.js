@@ -62,6 +62,7 @@ window.addEventListener('scroll', scrollActive)
 
 function scrollHeader(){
     const nav = document.getElementById('header')
+
 //When the scroll is greater thaan 200 viewport height, add the scroll-header class to the header tag
 if (this.scrollY >= 200) nav.classList.add('scroll-header'); else nav.classList.remove('scroll-header')
 }
@@ -73,7 +74,7 @@ window.addEventListener('scroll', scrollHeader)
 function scrollTop(){
     const scrollTop = document.getElementById('scroll-top')
 
-//When the scroll is greater thaan 560 viewport height, add the scroll-header class to the header tag
+//When the scroll is greater thaan 560 viewport height
 
 if (this.scrollY >= 560) scrollTop.classList.add('scroll-top'); else scrollTop.classList.remove('scroll-top')
 }
