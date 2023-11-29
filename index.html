@@ -8,14 +8,13 @@
 
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
 
     <!-- CSS -->
 
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="style.css" />
 
-    <title>Sushi Delivery</title>
+    <title>🥢 Japan@Home</title>
   </head>
 
   <body>
@@ -27,7 +26,7 @@
     <!-- HEADER START-->
     <header class="l-header" id="header">
       <nav class="nav bd-container">
-          <a href="#" class="nav__logo">Japan@Home</a>
+          <a href="#" class="nav__logo">🥢 Japan@Home</a>
 
           <div class="nav__menu" id="nav-menu">
               <ul class="nav__list">
@@ -38,6 +37,8 @@
                   <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
 
                   <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+
+                  
               </ul>
           </div>
 
@@ -68,7 +69,7 @@
   <div class="about__container  bd-grid">
       <div class="about__data">
           <span class="section-subtitle about__initial">About us</span>
-          <h2 class="section-title about__initial">We cook the best <br> janapese food!</h2>
+          <h2 class="section-title about__initial">We cook the best <br> japanese food!</h2>
           <p class="about__description">We cook the best food in the entire city, with excellent customer service, the best meals and at the best price, visit us.</p>
           <a href="#" class="button">Explore history</a>
       </div>
@@ -126,22 +127,73 @@
           <span class="menu__price">19.00€</span>
           <a href="#" class="button menu__button"><i class='bx bx-cart'></i></a>
         </div>
+        <div class="menu__content">
+          <img src="assets/img/plate3.png" alt="" class="menu__img">
+          <h3 class="menu__name"> Tonkatsu とんかつ </h3>
+          <span class="menu__detail">Our delicious tonkatsu</span>
+          <span class="menu__price">19.00€</span>
+          <a href="#" class="button menu__button"><i class='bx bx-cart'></i></a>
+        </div>
+        <div class="menu__content">
+          <img src="assets/img/plate3.png" alt="" class="menu__img">
+          <h3 class="menu__name"> Tonkatsu とんかつ </h3>
+          <span class="menu__detail">Our delicious tonkatsu</span>
+          <span class="menu__price">19.00€</span>
+          <a href="#" class="button menu__button"><i class='bx bx-cart'></i></a>
+        </div>
+        <div class="menu__content">
+          <img src="assets/img/plate3.png" alt="" class="menu__img">
+          <h3 class="menu__name"> Tonkatsu とんかつ </h3>
+          <span class="menu__detail">Our delicious tonkatsu</span>
+          <span class="menu__price">19.00€</span>
+          <a href="#" class="button menu__button"><i class='bx bx-cart'></i></a>
+        </div>
+
         
       </div>
       </section>
 
 <!-- Contact us -->
 <section class="content section bd-container" id="contact">
-  <div class="contact__container bd-grid">
+  <div class="contact__container ">
     <div class="contact__data">
-      <span class="section-subtitle">Let's talk!</span>
-      <h2 class="section-title">Contact us</h2>
-      <p class="contact__description">If you have doubts or want assistence in ordering food, we'll attend you quickly with our chat service.</p>
-    </div>
-    <div class="contact__button">
-      <a href="#" class="button">Contact us now</a>
-    </div>
-  </div>
+      <span class="section-subtitle">Contact us</span>
+      <h2 class="section-title">Let's talk!</h2>
+      <p class="contact__description">If you have doubts or want assistence in ordering food, we'll attend you quickly with our chat service. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, perspiciatis accusantium voluptas fugiat adipisci magni possimus consectetur mollitia dolores error odit hic vitae quia similique consequatur, dolorum omnis nobis veritatis!</p> 
+
+      <center><div class="wrapper">
+        <header>Send us a Message</header>
+        <form action="#">
+          <div class="dbl-field">
+            <div class="field">
+              <input type="text" name="name" placeholder="Enter your name" required>
+              <i class='bx bx-user'></i>
+            </div>
+            <div class="field">
+              <input type="email" name="email" placeholder="Enter your email" required>
+              <i class='bx bx-envelope' ></i>
+            </div>
+          </div>
+          <div class="dbl-field">
+            <div class="field">
+              <input type="number" name="phone" placeholder="Enter your phone">
+              <i class='bx bx-phone' ></i>
+            </div>
+          </div>
+          <div class="message">
+            <textarea placeholder="Hey! 👋 We can't wait to help you, write your message here." name="message"></textarea>
+            <i class='bx bx-message-detail'></i>
+            
+          </div>
+          <div class="button-area">
+            <button type="submit" class="button">Send Message</button></center>
+          
+          </div>
+       </form>
+        
+      </div>
+    
+    
 </section>
     </main>
     <!-- MAIN END-->
@@ -151,7 +203,7 @@
       <div class="footer__container bd-grid">
           <div class="footer__content">
               <a href="#" class="footer__logo">Japan@Home</a>
-              <span class="footer__description">Service Delivery</span>
+              <span class="footer__description">Delivery Service </span>
               <div>
                   <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
                   <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
@@ -193,9 +245,11 @@
 
     <!-- FOOTER END-->
 
-<!--========== SCROLL REVEAL ==========-->
+    <!-- SCROLL REVEAL -->
+
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- JAVASCRIPT-->
-    <script src="assets/js/main.js"></script>
+    <script src="main.js"></script>
+    
   </body>
 </html>
